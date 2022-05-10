@@ -11,7 +11,7 @@ const fs = require('fs');
 const ejs = require('ejs');
 const Photo = require('./models/Photo');
 const app = express();
-mongoose.connect('mongodb+srv://ibozdemir:Boz-demir70@cluster0.ixwmv.mongodb.net/pcad-db?retryWrites=true&w=majority', {
+mongoose.connect(process.env.mongooseConnectText, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
