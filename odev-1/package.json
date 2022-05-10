@@ -1,0 +1,19 @@
+{
+  "name": "odev-1js",
+  "version": "1.0.0",
+  "description": "ilk node projem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyasBozdemir/Node.js-ile-Backend-Patikasi-.git"
+  },
+  "author": "ilyasBozdemir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyasBozdemir/Node.js-ile-Backend-Patikasi-/issues"
+  },
+  "homepage": "https://github.com/ilyasBozdemir/Node.js-ile-Backend-Patikasi-#readme"
+}
