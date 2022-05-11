@@ -27,6 +27,9 @@ app.set('view engine', 'ejs');
 //middlewares
 app.use(express.static('public'));
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 //routes
 app.use('/', pageRoute);
 app.use('/courses', courseRoute);
