@@ -116,3 +116,13 @@ exports.getAboutPage = (req, res) => {
   });
 };
 ```
+
+# Lesson 4
+```NPM Komutu```
+
+mongoose indirimi
+
+```
+npm i mongoose
+
+```
