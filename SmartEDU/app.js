@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 
 const courseRoute = require('./routes/courseRoute');
 const pageRoute = require('./routes/pageRoute');
+const categoryRoute = require('./routes/categoryRoute');
 
 
 const app = express();
@@ -34,8 +35,10 @@ app.use(express.urlencoded({ extended: true }));
 //routes
 
 app.use('/', pageRoute);
-
 app.use('/courses', courseRoute);
+app.use('/categories', categoryRoute);
+
+
 
 const port = process.env.PORT || 3000;
 
